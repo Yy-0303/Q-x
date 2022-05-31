@@ -265,4 +265,4 @@ DOMAIN,dfp6rglgjqszk.cloudfront.net,GMedia
 USER-AGENT,WeTV*,GMedia
 DOMAIN-SUFFIX,wetv.vip,GMedia
 DOMAIN-SUFFIX,wetvinfo.com,GMedia
-IP-CIDR,150.109.28.51/32,no-resolve,GMedia
+IP-CIDR,150.109.28.51/32,GMedia
