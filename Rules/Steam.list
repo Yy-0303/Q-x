@@ -6,5 +6,6 @@ HOST-SUFFIX,community.akamai.steamstatic.com,Steam
 HOST-SUFFIX,media.steampowered.com,Steam
 HOST-SUFFIX,steamcommunity.com,Steam
 HOST-SUFFIX,www.steamcommunity.com,Steam
+HOST-SUFFIX,steamstatic.com,Steam
 HOST-SUFFIX,api.steampowered.com,Steam
 HOST-SUFFIX,local.steampp.net,Steam
