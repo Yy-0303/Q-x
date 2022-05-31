@@ -2,295 +2,267 @@
 
 # (Live)
 # > Twitch
-DOMAIN-SUFFIX,ext-twitch.tv
-DOMAIN-SUFFIX,jtvnw.net
-DOMAIN-SUFFIX,ttvnw.net
-DOMAIN-SUFFIX,twitch.tv
-DOMAIN-SUFFIX,twitchcdn.net
-DOMAIN-SUFFIX,twitch-ext.rootonline.de
+DOMAIN-SUFFIX,ext-twitch.tv,GMedia
+DOMAIN-SUFFIX,jtvnw.net,GMedia
+DOMAIN-SUFFIX,ttvnw.net,GMedia
+DOMAIN-SUFFIX,twitch.tv,GMedia
+DOMAIN-SUFFIX,twitchcdn.net,GMedia
+DOMAIN-SUFFIX,twitch-ext.rootonline.de,GMedia
 
 # (Music)
 # > Deezer
-USER-AGENT,Deezer*
-DOMAIN-SUFFIX,deezer.com
-DOMAIN-SUFFIX,dzcdn.net
+USER-AGENT,Deezer*,GMedia
+DOMAIN-SUFFIX,deezer.com,GMedia
+DOMAIN-SUFFIX,dzcdn.net,GMedia
 # > JOOX
-USER-AGENT,JOOX*
-USER-AGENT,WeMusic*
-DOMAIN-SUFFIX,joox.com
-DOMAIN-KEYWORD,jooxweb-api
+USER-AGENT,JOOX*,GMedia
+USER-AGENT,WeMusic*,GMedia
+DOMAIN-SUFFIX,joox.com,GMedia
+DOMAIN-KEYWORD,jooxweb-api,GMedia
 # > KKBOX
-DOMAIN-SUFFIX,kkbox.com
-DOMAIN-SUFFIX,kkbox.com.tw
-DOMAIN-SUFFIX,kfs.io
+DOMAIN-SUFFIX,kkbox.com,GMedia
+DOMAIN-SUFFIX,kkbox.com.tw,GMedia
+DOMAIN-SUFFIX,kfs.io,GMedia
 # > Pandora
-USER-AGENT,Pandora*
-DOMAIN-SUFFIX,pandora.com
+USER-AGENT,Pandora*,GMedia
+DOMAIN-SUFFIX,pandora.com,GMedia
 # > SoundCloud
-USER-AGENT,SoundCloud*
-DOMAIN-SUFFIX,p-cdn.us
-DOMAIN-SUFFIX,sndcdn.com
-DOMAIN-SUFFIX,soundcloud.com
-# > Spotify
-USER-AGENT,Spotify*
-DOMAIN-SUFFIX,pscdn.co
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,spoti.fi
-DOMAIN-KEYWORD,spotify.com
-DOMAIN-KEYWORD,-spotify-com
+USER-AGENT,SoundCloud*,GMedia
+DOMAIN-SUFFIX,p-cdn.us,GMedia
+DOMAIN-SUFFIX,sndcdn.com,GMedia
+DOMAIN-SUFFIX,soundcloud.com,GMedia
 # > TIDAL
-USER-AGENT,TIDAL*
-DOMAIN-SUFFIX,tidal.com
+USER-AGENT,TIDAL*,GMedia
+DOMAIN-SUFFIX,tidal.com,GMedia
 # > YouTubeMusic
-USER-AGENT,com.google.ios.youtubemusic*
-USER-AGENT,YouTubeMusic*
+USER-AGENT,com.google.ios.youtubemusic*,GMedia
+USER-AGENT,YouTubeMusic*,GMedia
 
 # (Podcast)
 # > Himalaya
-USER-AGENT,Himalaya*
-DOMAIN-SUFFIX,himalaya.com
+USER-AGENT,Himalaya*,GMedia
+DOMAIN-SUFFIX,himalaya.com,GMedia
 # > Overcast
-USER-AGENT,Overcast*
-DOMAIN-SUFFIX,overcast.fm
+USER-AGENT,Overcast*,GMedia
+DOMAIN-SUFFIX,overcast.fm,GMedia
 
 # (Video)
 # > AbemaTV
-USER-AGENT,AbemaTV*
-DOMAIN-SUFFIX,abema.io
-DOMAIN-SUFFIX,abema.tv
-DOMAIN-SUFFIX,ameba.jp
-DOMAIN-SUFFIX,hayabusa.io
-DOMAIN-KEYWORD,abematv.akamaized.net
+USER-AGENT,AbemaTV*,GMedia
+DOMAIN-SUFFIX,abema.io,GMedia
+DOMAIN-SUFFIX,abema.tv,GMedia
+DOMAIN-SUFFIX,ameba.jp,GMedia
+DOMAIN-SUFFIX,hayabusa.io,GMedia
+DOMAIN-KEYWORD,abematv.akamaized.net,GMedia
 # > All 4
-USER-AGENT,All4*
-DOMAIN-SUFFIX,c4assets.com
-DOMAIN-SUFFIX,channel4.com
+USER-AGENT,All4*,GMedia
+DOMAIN-SUFFIX,c4assets.com,GMedia
+DOMAIN-SUFFIX,channel4.com,GMedia
 # > Amazon Prime Video
-USER-AGENT,InstantVideo.US*
-USER-AGENT,Prime%20Video*
-DOMAIN-SUFFIX,aiv-cdn.net
-DOMAIN-SUFFIX,aiv-delivery.net
-DOMAIN-SUFFIX,amazonvideo.com
-DOMAIN-SUFFIX,media-amazon.com
-DOMAIN-SUFFIX,primevideo.com
-DOMAIN-SUFFIX,pv-cdn.net
-DOMAIN,atv-ps.amazon.com
-DOMAIN,fls-na.amazon.com
-DOMAIN,avodmp4s3ww-a.akamaihd.net
-DOMAIN,d25xi40x97liuc.cloudfront.net
-DOMAIN,dmqdd6hw24ucf.cloudfront.net
-DOMAIN,dmqdd6hw24ucf.cloudfront.net
-DOMAIN,d22qjgkvxw22r6.cloudfront.net
-DOMAIN,d1v5ir2lpwr8os.cloudfront.net
-DOMAIN,d27xxe7juh1us6.cloudfront.net
+USER-AGENT,InstantVideo.US*,GMedia
+USER-AGENT,Prime%20Video*,GMedia
+DOMAIN-SUFFIX,aiv-cdn.net,GMedia
+DOMAIN-SUFFIX,aiv-delivery.net,GMedia
+DOMAIN-SUFFIX,amazonvideo.com,GMedia
+DOMAIN-SUFFIX,media-amazon.com,GMedia
+DOMAIN-SUFFIX,primevideo.com,GMedia
+DOMAIN-SUFFIX,pv-cdn.net,GMedia
+DOMAIN,atv-ps.amazon.com,GMedia
+DOMAIN,fls-na.amazon.com,GMedia
+DOMAIN,avodmp4s3ww-a.akamaihd.net,GMedia
+DOMAIN,d25xi40x97liuc.cloudfront.net,GMedia
+DOMAIN,dmqdd6hw24ucf.cloudfront.net,GMedia
+DOMAIN,dmqdd6hw24ucf.cloudfront.net,GMedia
+DOMAIN,d22qjgkvxw22r6.cloudfront.net,GMedia
+DOMAIN,d1v5ir2lpwr8os.cloudfront.net,GMedia
+DOMAIN,d27xxe7juh1us6.cloudfront.net,GMedia
 # DOMAIN,www.amazon.com
-DOMAIN-KEYWORD,avoddashs
+DOMAIN-KEYWORD,avoddashs,GMedia
 # > Apple Music TV
-DOMAIN,tv.applemusic.com
+DOMAIN,tv.applemusic.com,GMedia
 # > Apple TV
-DOMAIN,linear.tv.apple.com
-DOMAIN,play-edge.itunes.apple.com
-DOMAIN,uts-api.itunes.apple.com
+DOMAIN,linear.tv.apple.com,GMedia
+DOMAIN,play-edge.itunes.apple.com,GMedia
+DOMAIN,uts-api.itunes.apple.com,GMedia
 # > Bahamut
-USER-AGENT,Anime*
-DOMAIN-SUFFIX,bahamut.com.tw
-DOMAIN-SUFFIX,gamer.com.tw
-DOMAIN,bahamut.akamaized.net
-DOMAIN,gamer-cds.cdn.hinet.net
-DOMAIN,gamer2-cds.cdn.hinet.net
+USER-AGENT,Anime*,GMedia
+DOMAIN-SUFFIX,bahamut.com.tw,GMedia
+DOMAIN-SUFFIX,gamer.com.tw,GMedia
+DOMAIN,bahamut.akamaized.net,GMedia
+DOMAIN,gamer-cds.cdn.hinet.net,GMedia
+DOMAIN,gamer2-cds.cdn.hinet.net,GMedia
 # > BBC iPlayer
-USER-AGENT,BBCiPlayer*
-DOMAIN-SUFFIX,bbc.co.uk
-DOMAIN-SUFFIX,bbci.co.uk
-DOMAIN-KEYWORD,bbcfmt
-DOMAIN-KEYWORD,uk-live
+USER-AGENT,BBCiPlayer*,GMedia
+DOMAIN-SUFFIX,bbc.co.uk,GMedia
+DOMAIN-SUFFIX,bbci.co.uk,GMedia
+DOMAIN-KEYWORD,bbcfmt,GMedia
+DOMAIN-KEYWORD,uk-live,GMedia
 # > bilibili Intl
-DOMAIN-SUFFIX,biliintl.com
-DOMAIN,apm-misaka.biliapi.net
-DOMAIN,p.bstarstatic.com
-DOMAIN,p-bstarstatic.akamaized.net
-DOMAIN,upos-bstar-mirrorakam.akamaized.net
-DOMAIN,upos-bstar1-mirrorakam.akamaized.net
+DOMAIN-SUFFIX,biliintl.com,GMedia
+DOMAIN,apm-misaka.biliapi.net,GMedia
+DOMAIN,p.bstarstatic.com,GMedia
+DOMAIN,p-bstarstatic.akamaized.net,GMedia
+DOMAIN,upos-bstar-mirrorakam.akamaized.net,GMedia
+DOMAIN,upos-bstar1-mirrorakam.akamaized.net,GMedia
 # > DAZN
-USER-AGENT,DAZN*
-DOMAIN-SUFFIX,dazn.com
-DOMAIN-SUFFIX,dazn-api.com
-DOMAIN-SUFFIX,dazndn.com
-DOMAIN-SUFFIX,indazn.com
-DOMAIN,d151l6v8er5bdm.cloudfront.net
-DOMAIN-KEYWORD,voddazn
+USER-AGENT,DAZN*,GMedia
+DOMAIN-SUFFIX,dazn.com,GMedia
+DOMAIN-SUFFIX,dazn-api.com,GMedia
+DOMAIN-SUFFIX,dazndn.com,GMedia
+DOMAIN-SUFFIX,indazn.com,GMedia
+DOMAIN,d151l6v8er5bdm.cloudfront.net,GMedia
+DOMAIN-KEYWORD,voddazn,GMedia
 # > discovery+
-USER-AGENT,DPlus*
-USER-AGENT,discovery+*
-DOMAIN-SUFFIX,disco-api.com
-DOMAIN-SUFFIX,discoveryplus.co.uk
-DOMAIN-SUFFIX,discoveryplus.com
-DOMAIN-SUFFIX,discoveryplus.in
-DOMAIN-SUFFIX,dnitv.com
-# DOMAIN,go-prod-vz.akamaized.net
-DOMAIN,x-default-stgec.uplynk.com
-DOMAIN-KEYWORD,discovery.uplynk.com
+USER-AGENT,DPlus*,GMedia
+USER-AGENT,discovery+*,GMedia
+DOMAIN-SUFFIX,disco-api.com,GMedia
+DOMAIN-SUFFIX,discoveryplus.co.uk,GMedia
+DOMAIN-SUFFIX,discoveryplus.com,GMedia
+DOMAIN-SUFFIX,discoveryplus.in,GMedia
+DOMAIN-SUFFIX,dnitv.com,GMedia
+# DOMAIN,go-prod-vz.akamaized.net,GMedia
+DOMAIN,x-default-stgec.uplynk.com,GMedia
+DOMAIN-KEYWORD,discovery.uplynk.com,GMedia
 # > DMM
-DOMAIN-SUFFIX,dmm.co.jp
-DOMAIN-SUFFIX,dmm.com
-DOMAIN-SUFFIX,dmm-extension.com
+DOMAIN-SUFFIX,dmm.co.jp,GMedia
+DOMAIN-SUFFIX,dmm.com,GMedia
+DOMAIN-SUFFIX,dmm-extension.com,GMedia
 # > encoreTVB
-USER-AGENT,encoreTVB*
-DOMAIN-SUFFIX,encoretvb.com
-DOMAIN,edge.api.brightcove.com
-DOMAIN,bcbolt446c5271-a.akamaihd.net
+USER-AGENT,encoreTVB*,GMedia
+DOMAIN-SUFFIX,encoretvb.com,GMedia
+DOMAIN,edge.api.brightcove.com,GMedia
+DOMAIN,bcbolt446c5271-a.akamaihd.net,GMedia
 # > HBO NOW & Max
-USER-AGENT,HBO%20NOW*
-DOMAIN-SUFFIX,hbo.com
-DOMAIN-SUFFIX,hbogo.com
-DOMAIN-SUFFIX,hbonow.com
-USER-AGENT,HBOMAX*
-DOMAIN-SUFFIX,hbomax.com
-DOMAIN-SUFFIX,hbomaxcdn.com
+USER-AGENT,HBO%20NOW*,GMedia
+DOMAIN-SUFFIX,hbo.com,GMedia
+DOMAIN-SUFFIX,hbogo.com,GMedia
+DOMAIN-SUFFIX,hbonow.com,GMedia
+USER-AGENT,HBOMAX*,GMedia
+DOMAIN-SUFFIX,hbomax.com,GMedia
+DOMAIN-SUFFIX,hbomaxcdn.com,GMedia
 # > HBO Asia
-USER-AGENT,HBO%20GO%20PROD*
-DOMAIN-SUFFIX,hbogoasia.com
-DOMAIN-SUFFIX,hbogoasia.hk
-DOMAIN-KEYWORD,.hbogoasia.
-DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
-DOMAIN,bcbolthboa-a.akamaihd.net
-DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
-DOMAIN,dai3fd1oh325y.cloudfront.net
-DOMAIN,hboasia1-i.akamaihd.net
-DOMAIN,hboasia2-i.akamaihd.net
-DOMAIN,hboasia3-i.akamaihd.net
-DOMAIN,hboasia4-i.akamaihd.net
-DOMAIN,hboasia5-i.akamaihd.net
-DOMAIN,hboasialive.akamaized.net
-DOMAIN,hbogoprod-vod.akamaized.net
-DOMAIN,hbolb.onwardsmg.com
-DOMAIN,hbounify-prod.evergent.com
-DOMAIN,players.brightcove.net
-DOMAIN,s3-ap-southeast-1.amazonaws.com
+USER-AGENT,HBO%20GO%20PROD*,GMedia
+DOMAIN-SUFFIX,hbogoasia.com,GMedia
+DOMAIN-SUFFIX,hbogoasia.hk,GMedia
+DOMAIN-KEYWORD,.hbogoasia.,GMedia
+DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,GMedia
+DOMAIN,bcbolthboa-a.akamaihd.net,GMedia
+DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,GMedia
+DOMAIN,dai3fd1oh325y.cloudfront.net,GMedia
+DOMAIN,hboasia1-i.akamaihd.net,GMedia
+DOMAIN,hboasia2-i.akamaihd.net,GMedia
+DOMAIN,hboasia3-i.akamaihd.net,GMedia
+DOMAIN,hboasia4-i.akamaihd.net,GMedia
+DOMAIN,hboasia5-i.akamaihd.net,GMedia
+DOMAIN,hboasialive.akamaized.net,GMedia
+DOMAIN,hbogoprod-vod.akamaized.net,GMedia
+DOMAIN,hbolb.onwardsmg.com,GMedia
+DOMAIN,hbounify-prod.evergent.com,GMedia
+DOMAIN,players.brightcove.net,GMedia
+DOMAIN,s3-ap-southeast-1.amazonaws.com,GMedia
 # > 华文电视
-USER-AGENT,HWTVMobile*
-DOMAIN-SUFFIX,5itv.tv
-DOMAIN-SUFFIX,ocnttv.com
+USER-AGENT,HWTVMobile*,GMedia
+DOMAIN-SUFFIX,5itv.tv,GMedia
+DOMAIN-SUFFIX,ocnttv.com,GMedia
 # > Hulu
-DOMAIN-SUFFIX,hulu.com
-DOMAIN-SUFFIX,huluim.com
-DOMAIN-SUFFIX,hulustream.com
+DOMAIN-SUFFIX,hulu.com,GMedia
+DOMAIN-SUFFIX,huluim.com,GMedia
+DOMAIN-SUFFIX,hulustream.com,GMedia
 # > Hulu / フールー
-DOMAIN-SUFFIX,happyon.jp
-DOMAIN-SUFFIX,hjholdings.jp
-DOMAIN-SUFFIX,hulu.jp
+DOMAIN-SUFFIX,happyon.jp,GMedia
+DOMAIN-SUFFIX,hjholdings.jp,GMedia
+DOMAIN-SUFFIX,hulu.jp,GMedia
 # > ITV
-USER-AGENT,ITV_Player*
-DOMAIN-SUFFIX,itv.com
-DOMAIN-SUFFIX,itvstatic.com
-DOMAIN,itvpnpmobile-a.akamaihd.net
-# > iQIYI
-DOMAIN-SUFFIX,iq.com
-DOMAIN,intl.iqiyi.com
-DOMAIN,intl-rcd.iqiyi.com
-DOMAIN,intl-subscription.iqiyi.com
-IP-CIDR,23.53.32.88/32,no-resolve
-IP-CIDR,23.211.15.99/32,no-resolve
-IP-CIDR,103.5.34.153/32,no-resolve
-IP-CIDR,104.109.129.153/32,no-resolve
-IP-CIDR,110.238.107.47/32,no-resolve
-IP-CIDR,118.26.32.178/32,no-resolve
-IP-CIDR,203.74.95.131/32,no-resolve
-IP-CIDR,203.74.95.139/32,no-resolve
-IP-CIDR,203.74.95.153/32,no-resolve
-IP-CIDR,203.211.4.169/32,no-resolve
-IP-CIDR,203.211.4.193/32,no-resolve
-IP-CIDR,210.71.227.200/32,no-resolve
-IP-CIDR,210.71.227.202/32,no-resolve
-IP-CIDR,210.201.32.8/32,no-resolve
-IP-CIDR,210.201.32.11/32,no-resolve
+USER-AGENT,ITV_Player*,GMedia
+DOMAIN-SUFFIX,itv.com,GMedia
+DOMAIN-SUFFIX,itvstatic.com,GMedia
+DOMAIN,itvpnpmobile-a.akamaihd.net,GMedia
 # > KKTV
-USER-AGENT,KKTV*
-USER-AGENT,com.kktv.ios.kktv*
-DOMAIN-SUFFIX,kktv.com.tw
-DOMAIN-SUFFIX,kktv.me
-DOMAIN,kktv-theater.kk.stream
+USER-AGENT,KKTV*,GMedia
+USER-AGENT,com.kktv.ios.kktv*,GMedia
+DOMAIN-SUFFIX,kktv.com.tw,GMedia
+DOMAIN-SUFFIX,kktv.me,GMedia
+DOMAIN,kktv-theater.kk.stream,GMedia
 # > LINE TV
-USER-AGENT,LINE%20TV*
-DOMAIN-SUFFIX,linetv.tw
-DOMAIN,d3c7rimkq79yfu.cloudfront.net
+USER-AGENT,LINE%20TV*,GMedia
+DOMAIN-SUFFIX,linetv.tw,GMedia
+DOMAIN,d3c7rimkq79yfu.cloudfront.net,GMedia
 # > LiTV
-DOMAIN-SUFFIX,litv.tv
-DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
+DOMAIN-SUFFIX,litv.tv,GMedia
+DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,GMedia
 # > My5
-USER-AGENT,My5*
-DOMAIN-SUFFIX,channel5.com
-DOMAIN-SUFFIX,my5.tv
-DOMAIN,d349g9zuie06uo.cloudfront.net
+USER-AGENT,My5*,GMedia
+DOMAIN-SUFFIX,channel5.com,GMedia
+DOMAIN-SUFFIX,my5.tv,GMedia
+DOMAIN,d349g9zuie06uo.cloudfront.net,GMedia
 # > myTV SUPER
-USER-AGENT,mytv*
-DOMAIN-SUFFIX,mytvsuper.com
-DOMAIN-SUFFIX,tvb.com
+USER-AGENT,mytv*,GMedia
+DOMAIN-SUFFIX,mytvsuper.com,GMedia
+DOMAIN-SUFFIX,tvb.com,GMedia
 # > Naver TV
-USER-AGENT,Naver%20TV*
-DOMAIN-SUFFIX,naver.com
-DOMAIN-SUFFIX,smartmediarep.com
-# GEOIP,NETFLIX,no-resolve
+USER-AGENT,Naver%20TV*,GMedia
+DOMAIN-SUFFIX,naver.com,GMedia
+DOMAIN-SUFFIX,smartmediarep.com,GMedia
+# GEOIP,NETFLIX,no-resolve,GMedia
 # > niconico
-USER-AGENT,Niconico*
-DOMAIN-SUFFIX,dmc.nico
-DOMAIN-SUFFIX,nicovideo.jp
-DOMAIN-SUFFIX,nimg.jp
+USER-AGENT,Niconico*,GMedia
+DOMAIN-SUFFIX,dmc.nico,GMedia
+DOMAIN-SUFFIX,nicovideo.jp,GMedia
+DOMAIN-SUFFIX,nimg.jp,GMedia
 # > Now E
-DOMAIN-SUFFIX,nowe.com
-DOMAIN-SUFFIX,nowestatic.com
+DOMAIN-SUFFIX,nowe.com,GMedia
+DOMAIN-SUFFIX,nowestatic.com,GMedia
 # > Paramount+
-USER-AGENT,PPlus*
-DOMAIN-SUFFIX,cbsi.com
-DOMAIN-SUFFIX,cbsaavideo.com
-DOMAIN-SUFFIX,cbsivideo.com
-DOMAIN-SUFFIX,paramountplus.com
-DOMAIN-SUFFIX,pplusstatic.com
-DOMAIN,cbsi.live.ott.irdeto.com
-DOMAIN,cbsplaylistserver.aws.syncbak.com
-DOMAIN,cbsservice.aws.syncbak.com
-DOMAIN,link.theplatform.com
+USER-AGENT,PPlus*,GMedia
+DOMAIN-SUFFIX,cbsi.com,GMedia
+DOMAIN-SUFFIX,cbsaavideo.com,GMedia
+DOMAIN-SUFFIX,cbsivideo.com,GMedia
+DOMAIN-SUFFIX,paramountplus.com,GMedia
+DOMAIN-SUFFIX,pplusstatic.com,GMedia
+DOMAIN,cbsi.live.ott.irdeto.com,GMedia
+DOMAIN,cbsplaylistserver.aws.syncbak.com,GMedia
+DOMAIN,cbsservice.aws.syncbak.com,GMedia
+DOMAIN,link.theplatform.com,GMedia
 # > PBS
-USER-AGENT,PBS*
-DOMAIN-SUFFIX,pbs.org
+USER-AGENT,PBS*,GMedia
+DOMAIN-SUFFIX,pbs.org,GMedia
 # > Peacock
-USER-AGENT,PeacockMobile*
-DOMAIN-SUFFIX,peacocktv.com
+USER-AGENT,PeacockMobile*,GMedia
+DOMAIN-SUFFIX,peacocktv.com,GMedia
 # > Pornhub
-DOMAIN-SUFFIX,phncdn.com
-DOMAIN-SUFFIX,phprcdn.com
-DOMAIN-SUFFIX,pornhub.com
-DOMAIN-SUFFIX,pornhubpremium.com
+DOMAIN-SUFFIX,phncdn.com,GMedia
+DOMAIN-SUFFIX,phprcdn.com,GMedia
+DOMAIN-SUFFIX,pornhub.com,GMedia
+DOMAIN-SUFFIX,pornhubpremium.com,GMedia
 # > 台湾好
-USER-AGENT,TaiwanGood*
-DOMAIN-SUFFIX,skyking.com.tw
-DOMAIN,hamifans.emome.net
+USER-AGENT,TaiwanGood*,GMedia
+DOMAIN-SUFFIX,skyking.com.tw,GMedia
+DOMAIN,hamifans.emome.net,GMedia
 # > TikTok
-USER-AGENT,TikTok*
-DOMAIN-SUFFIX,byteoversea.com
-DOMAIN-SUFFIX,ibytedtos.com
-DOMAIN-SUFFIX,muscdn.com
-DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX,tiktok.com
+USER-AGENT,TikTok*,GMedia
+DOMAIN-SUFFIX,byteoversea.com,GMedia
+DOMAIN-SUFFIX,ibytedtos.com,GMedia
+DOMAIN-SUFFIX,muscdn.com,GMedia
+DOMAIN-SUFFIX,musical.ly,GMedia
+DOMAIN-SUFFIX,tiktok.com,GMedia
 DOMAIN-SUFFIX,tik-tokapi.com
-DOMAIN-SUFFIX,tiktokcdn.com
-DOMAIN-SUFFIX,tiktokv.com
-DOMAIN-KEYWORD,tiktokcdn-
+DOMAIN-SUFFIX,tiktokcdn.com,GMedia
+DOMAIN-SUFFIX,tiktokv.com,GMedia
+DOMAIN-KEYWORD,tiktokcdn-,GMedia
 # > TVer
-USER-AGENT,TVer-Release*
-DOMAIN-SUFFIX,tver.jp
-DOMAIN,edge.api.brightcove.com
+USER-AGENT,TVer-Release*,GMedia
+DOMAIN-SUFFIX,tver.jp,GMedia
+DOMAIN,edge.api.brightcove.com,GMedia
 # > ViuTV
-USER-AGENT,Viu*
-DOMAIN-SUFFIX,viu.com
-DOMAIN-SUFFIX,viu.tv
-DOMAIN,api.viu.now.com
-DOMAIN,d1k2us671qcoau.cloudfront.net
-DOMAIN,d2anahhhmp1ffz.cloudfront.net
-DOMAIN,dfp6rglgjqszk.cloudfront.net
+USER-AGENT,Viu*,GMedia
+DOMAIN-SUFFIX,viu.com,GMedia
+DOMAIN-SUFFIX,viu.tv,GMedia
+DOMAIN,api.viu.now.com,GMedia
+DOMAIN,d1k2us671qcoau.cloudfront.net,GMedia
+DOMAIN,d2anahhhmp1ffz.cloudfront.net,GMedia
+DOMAIN,dfp6rglgjqszk.cloudfront.net,GMedia
 # > WeTV
-USER-AGENT,WeTV*
-DOMAIN-SUFFIX,wetv.vip
-DOMAIN-SUFFIX,wetvinfo.com
-IP-CIDR,150.109.28.51/32,no-resolve
+USER-AGENT,WeTV*,GMedia
+DOMAIN-SUFFIX,wetv.vip,GMedia
+DOMAIN-SUFFIX,wetvinfo.com,GMedia
+IP-CIDR,150.109.28.51/32,no-resolve,GMedia
