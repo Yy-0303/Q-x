@@ -1,5 +1,6 @@
 #!name=Bilibili4K
 #!desc=哔哩哔哩解锁4K
+[Script]
 http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?  requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
 [MITM]
 hostname = %APPEND% api.bilibili.com
