@@ -1,13 +1,10 @@
-#!name=Forme
-#!desc=整合奈飞评分、哔哩哔哩解锁4K
+#!name=奈飞评分
+#!desc=整合奈飞评分
 
 [Script]
 #奈飞评分
 http-request ^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 http-response ^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
-#哔哩哔哩4K
-#http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?  requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
-
 [MITM]
 hostname = %APPEND% ios.prod.ftl.netflix.com
-#api.bilibili.com
+
